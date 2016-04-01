@@ -1,5 +1,5 @@
 class Movie():
-    def __init__(self, title, storyline, poster_image, trailer_youtube, year=None, director=None, IMDB_rating=None, stars=[]):
+    def __init__(self, title, storyline, poster_image, trailer_youtube, year, director, IMDB_rating, stars=[]):
         self.title = title
         self.storyline = storyline
         self.poster_image_url = poster_image
