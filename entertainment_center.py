@@ -1,7 +1,7 @@
 from fresh_tomatoes import open_movies_page
 import media
 
-# Using a list of dictionaries for storing data about the movies. Every 
+# Using a list of dictionaries for storing data about the movies. Every
 # item of a list contains data about single movie. This way allows to easily
 # add new movies. Every dictionary MUST have all attributes (title, storyline,
 # poster_image, trailer_youtube, year, director, IMDB_rating, stars)
