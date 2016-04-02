@@ -147,8 +147,8 @@ def create_movie_tiles_content(movies):
                               else None)
         stars = ""
         for i in movie.stars:
-            stars += i + ", "
-        stars = stars[:-2]
+            stars += i + ", "  # make string of names from the list
+        stars = stars[:-2]     # remove ", " from the last name
 
         # Append the tile for the movie with its content filled in
         content += movie_tile_content.format(
