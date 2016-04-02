@@ -1,3 +1,4 @@
+from fresh_tomatoes import open_movies_page
 import media
 
 movie_data = [{
@@ -145,3 +146,5 @@ for i in movie_data:
                             ))
 
 print movies
+
+open_movies_page(movies)
